@@ -1,24 +1,26 @@
-import socket
+import wmi
 
 
-def ip_info():
-    # DNS-Server-IP-Adressen abrufen
-    dns_servers = socket.gethostbyname_ex(socket.gethostname())[2]
+def print_network_settings():
+    c = wmi.WMI()
+    network_configs = c.Win32_NetworkAdapterConfiguration(IPEnabled=True)
 
-    # IPv4- und IPv6-Adressen abrufen
-    ip_addresses = [ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]]
-    ip_addresses_ipv4 = [ip for ip in ip_addresses if ':' not in ip]
-    ip_addresses_ipv6 = [ip for ip in ip_addresses if ':' in ip]
+    for config in network_configs:
+        print("Adapter: {}".format(config.Description))
+        print("IPv4-Adresse(n): {}".format(", ".join(config.IPAddress)))
+        print("IPv4-Subnetzmaske(n): {}".format(", ".join(config.IPSubnet)))
+        print("IPv4-Gateway(s): {}".format(", ".join(config.DefaultIPGateway)))
 
-    print("DNS-Server-IP-Adressen:", dns_servers)
-    print("IPv4-Adressen:", ip_addresses_ipv4)
+        # Abrufen der DNS-Server-Informationen für IPv4
+        dns_ipv4 = [dns for dns in config.DNSServerSearchOrder if ':' not in dns]
+        print("DNS-Server IPv4: {}".format(", ".join(dns_ipv4)))
 
-    if ip_addresses_ipv6:
-        print("IPv6-Adressen:", ip_addresses_ipv6)
-    else:
-        print("Keine IPv6-Adressen konfiguriert.")
+        # Abrufen der DNS-Server-Informationen für IPv6
+        dns_ipv6 = [dns for dns in config.DNSServerSearchOrder if ':' in dns]
+        print("DNS-Server IPv6: {}".format(", ".join(dns_ipv6)))
 
-    if len(dns_servers) > 1:
-        print("Zusätzliche DNS-Server konfiguriert.")
-    else:
-        print("Keine zusätzlichen DNS-Server konfiguriert.")
+        print()
+
+
+if __name__ == "__main__":
+    print_network_settings()
