@@ -21,8 +21,8 @@ try:
     print("DNS-Server IPv4 Primär: ", primary_dns_ipv4)
     print("DNS-Server IPv4 Alternative: ", secondary_dns_ipv4)
     ausgabe.unterstrich(zeichenanzahl)
-
     input("Drücken sie Enter um die Einstellungen auf folgende daten zu setzen:")
+    print("\n")
 
     ipv4_change.change_dns_settings(primary_dns_ipv4, secondary_dns_ipv4)
 

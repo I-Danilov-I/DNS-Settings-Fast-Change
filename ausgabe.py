@@ -20,4 +20,4 @@ def unterstrich(zeichen_anzahl):
 
 
 def ausgabe_log(text):
-    print("[" + text + "]")
+    print("LOG:" + "[" + text + "]")

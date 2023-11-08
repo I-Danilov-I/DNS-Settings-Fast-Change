@@ -2,6 +2,7 @@ import wmi
 
 
 def print_network_settings():
+
     c = wmi.WMI()
     network_configs = c.Win32_NetworkAdapterConfiguration(IPEnabled=True)
 
