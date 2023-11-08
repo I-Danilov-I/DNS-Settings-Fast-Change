@@ -1,5 +1,168 @@
-
-2023-11-08 14:31:16,173 - INFO: Ändere den IPv4-DNS-Server auf 8.8.8.8 für die Schnittstelle Realtek PCIe GbE Family Controller
-2023-11-08 14:31:16,195 - INFO: DNS-Einstellungen erfolgreich geändert.
-2023-11-08 14:32:25,484 - INFO: Ändere den IPv4-DNS-Server auf 8.8.8.8 für die Schnittstelle Realtek PCIe GbE Family Controller
-2023-11-08 14:32:25,506 - INFO: DNS-Einstellungen erfolgreich geändert.
+2023-11-08 14:52:02,229 - INFO: Rufe die Funktion zum Ändern der DNS-Einstellungen auf
+2023-11-08 14:52:02,229 - INFO: Initialisiere das WMI-Objekt
+2023-11-08 14:52:02,230 - INFO: Ermittle die Netzwerkschnittstellen
+2023-11-08 14:52:02,409 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:52:02,409 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:52:02,417 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Realtek PCIe GbE Family Controller
+2023-11-08 14:52:02,417 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Realtek PCIe GbE Family Controller
+2023-11-08 14:52:02,432 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (SSTP)
+2023-11-08 14:52:02,433 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (SSTP)
+2023-11-08 14:52:02,441 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IKEv2)
+2023-11-08 14:52:02,441 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IKEv2)
+2023-11-08 14:52:02,450 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (L2TP)
+2023-11-08 14:52:02,450 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (L2TP)
+2023-11-08 14:52:02,458 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPTP)
+2023-11-08 14:52:02,458 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPTP)
+2023-11-08 14:52:02,468 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPPOE)
+2023-11-08 14:52:02,468 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPPOE)
+2023-11-08 14:52:02,476 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IP)
+2023-11-08 14:52:02,476 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IP)
+2023-11-08 14:52:02,484 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IPv6)
+2023-11-08 14:52:02,484 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IPv6)
+2023-11-08 14:52:02,493 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (Network Monitor)
+2023-11-08 14:52:02,493 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (Network Monitor)
+2023-11-08 14:52:02,501 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:52:02,501 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:52:02,509 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:52:02,509 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:52:02,517 - INFO: DNS-Einstellungen erfolgreich geändert.
+2023-11-08 14:53:24,709 - INFO: Rufe die Funktion zum Ändern der DNS-Einstellungen auf
+2023-11-08 14:53:24,709 - INFO: Initialisiere das WMI-Objekt
+2023-11-08 14:53:24,710 - INFO: Ermittle die Netzwerkschnittstellen
+2023-11-08 14:53:24,880 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:53:24,880 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:53:24,890 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Realtek PCIe GbE Family Controller
+2023-11-08 14:53:24,890 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Realtek PCIe GbE Family Controller
+2023-11-08 14:53:24,905 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (SSTP)
+2023-11-08 14:53:24,905 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (SSTP)
+2023-11-08 14:53:24,915 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IKEv2)
+2023-11-08 14:53:24,915 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IKEv2)
+2023-11-08 14:53:24,923 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (L2TP)
+2023-11-08 14:53:24,923 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (L2TP)
+2023-11-08 14:53:24,931 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPTP)
+2023-11-08 14:53:24,931 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPTP)
+2023-11-08 14:53:24,939 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPPOE)
+2023-11-08 14:53:24,939 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPPOE)
+2023-11-08 14:53:24,949 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IP)
+2023-11-08 14:53:24,949 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IP)
+2023-11-08 14:53:24,957 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IPv6)
+2023-11-08 14:53:24,957 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IPv6)
+2023-11-08 14:53:24,965 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (Network Monitor)
+2023-11-08 14:53:24,965 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (Network Monitor)
+2023-11-08 14:53:24,973 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:24,973 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:24,981 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:24,981 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:24,990 - INFO: DNS-Einstellungen erfolgreich geändert.
+2023-11-08 14:53:44,717 - INFO: Rufe die Funktion zum Ändern der DNS-Einstellungen auf
+2023-11-08 14:53:44,717 - INFO: Initialisiere das WMI-Objekt
+2023-11-08 14:53:44,718 - INFO: Ermittle die Netzwerkschnittstellen
+2023-11-08 14:53:44,890 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:53:44,890 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:53:44,900 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Realtek PCIe GbE Family Controller
+2023-11-08 14:53:44,900 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle Realtek PCIe GbE Family Controller
+2023-11-08 14:53:44,915 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (SSTP)
+2023-11-08 14:53:44,916 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle WAN Miniport (SSTP)
+2023-11-08 14:53:44,924 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IKEv2)
+2023-11-08 14:53:44,924 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle WAN Miniport (IKEv2)
+2023-11-08 14:53:44,933 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (L2TP)
+2023-11-08 14:53:44,933 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle WAN Miniport (L2TP)
+2023-11-08 14:53:44,941 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPTP)
+2023-11-08 14:53:44,942 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle WAN Miniport (PPTP)
+2023-11-08 14:53:44,952 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPPOE)
+2023-11-08 14:53:44,953 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle WAN Miniport (PPPOE)
+2023-11-08 14:53:44,961 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IP)
+2023-11-08 14:53:44,961 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle WAN Miniport (IP)
+2023-11-08 14:53:44,969 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IPv6)
+2023-11-08 14:53:44,969 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle WAN Miniport (IPv6)
+2023-11-08 14:53:44,977 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (Network Monitor)
+2023-11-08 14:53:44,977 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle WAN Miniport (Network Monitor)
+2023-11-08 14:53:44,985 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:44,985 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:44,994 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:44,994 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.41', '94.140.14.51'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:45,002 - INFO: DNS-Einstellungen erfolgreich geändert.
+2023-11-08 14:53:58,823 - INFO: Rufe die Funktion zum Ändern der DNS-Einstellungen auf
+2023-11-08 14:53:58,823 - INFO: Initialisiere das WMI-Objekt
+2023-11-08 14:53:58,825 - INFO: Ermittle die Netzwerkschnittstellen
+2023-11-08 14:53:58,995 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:53:58,995 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:53:59,004 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Realtek PCIe GbE Family Controller
+2023-11-08 14:53:59,004 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Realtek PCIe GbE Family Controller
+2023-11-08 14:53:59,020 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (SSTP)
+2023-11-08 14:53:59,020 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (SSTP)
+2023-11-08 14:53:59,029 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IKEv2)
+2023-11-08 14:53:59,029 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IKEv2)
+2023-11-08 14:53:59,037 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (L2TP)
+2023-11-08 14:53:59,037 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (L2TP)
+2023-11-08 14:53:59,045 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPTP)
+2023-11-08 14:53:59,045 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPTP)
+2023-11-08 14:53:59,055 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPPOE)
+2023-11-08 14:53:59,055 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPPOE)
+2023-11-08 14:53:59,064 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IP)
+2023-11-08 14:53:59,064 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IP)
+2023-11-08 14:53:59,072 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IPv6)
+2023-11-08 14:53:59,072 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IPv6)
+2023-11-08 14:53:59,081 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (Network Monitor)
+2023-11-08 14:53:59,081 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (Network Monitor)
+2023-11-08 14:53:59,090 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:59,090 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:59,098 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:59,098 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:53:59,105 - INFO: DNS-Einstellungen erfolgreich geändert.
+2023-11-08 14:55:07,530 - INFO: Rufe die Funktion zum Ändern der DNS-Einstellungen auf
+2023-11-08 14:55:07,530 - INFO: Initialisiere das WMI-Objekt
+2023-11-08 14:55:07,531 - INFO: Ermittle die Netzwerkschnittstellen
+2023-11-08 14:55:07,699 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:55:07,699 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:55:07,708 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Realtek PCIe GbE Family Controller
+2023-11-08 14:55:07,708 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Realtek PCIe GbE Family Controller
+2023-11-08 14:55:07,723 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (SSTP)
+2023-11-08 14:55:07,724 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (SSTP)
+2023-11-08 14:55:07,733 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IKEv2)
+2023-11-08 14:55:07,733 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IKEv2)
+2023-11-08 14:55:07,742 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (L2TP)
+2023-11-08 14:55:07,742 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (L2TP)
+2023-11-08 14:55:07,750 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPTP)
+2023-11-08 14:55:07,750 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPTP)
+2023-11-08 14:55:07,760 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPPOE)
+2023-11-08 14:55:07,760 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPPOE)
+2023-11-08 14:55:07,769 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IP)
+2023-11-08 14:55:07,769 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IP)
+2023-11-08 14:55:07,777 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IPv6)
+2023-11-08 14:55:07,777 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IPv6)
+2023-11-08 14:55:07,785 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (Network Monitor)
+2023-11-08 14:55:07,785 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (Network Monitor)
+2023-11-08 14:55:07,793 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:55:07,793 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:55:07,801 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:55:07,802 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:55:07,810 - INFO: DNS-Einstellungen erfolgreich geändert.
+2023-11-08 14:55:20,682 - INFO: Rufe die Funktion zum Ändern der DNS-Einstellungen auf
+2023-11-08 14:55:20,683 - INFO: Initialisiere das WMI-Objekt
+2023-11-08 14:55:20,684 - INFO: Ermittle die Netzwerkschnittstellen
+2023-11-08 14:55:20,856 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:55:20,856 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Microsoft Kernel Debug Network Adapter
+2023-11-08 14:55:20,866 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Realtek PCIe GbE Family Controller
+2023-11-08 14:55:20,866 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Realtek PCIe GbE Family Controller
+2023-11-08 14:55:20,879 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (SSTP)
+2023-11-08 14:55:20,879 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (SSTP)
+2023-11-08 14:55:20,888 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IKEv2)
+2023-11-08 14:55:20,888 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IKEv2)
+2023-11-08 14:55:20,897 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (L2TP)
+2023-11-08 14:55:20,897 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (L2TP)
+2023-11-08 14:55:20,905 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPTP)
+2023-11-08 14:55:20,905 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPTP)
+2023-11-08 14:55:20,916 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (PPPOE)
+2023-11-08 14:55:20,916 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (PPPOE)
+2023-11-08 14:55:20,924 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IP)
+2023-11-08 14:55:20,924 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IP)
+2023-11-08 14:55:20,933 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (IPv6)
+2023-11-08 14:55:20,933 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (IPv6)
+2023-11-08 14:55:20,942 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle WAN Miniport (Network Monitor)
+2023-11-08 14:55:20,942 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle WAN Miniport (Network Monitor)
+2023-11-08 14:55:20,950 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:55:20,950 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:55:20,958 - INFO: Überprüfe IPv4-Unterstützung für die Schnittstelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:55:20,958 - INFO: Ändere die IPv4-DNS-Server auf ['94.140.14.49', '94.140.14.59'] für die Schnittelle Bluetooth Device (Personal Area Network)
+2023-11-08 14:55:20,966 - INFO: DNS-Einstellungen erfolgreich geändert.
