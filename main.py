@@ -6,6 +6,10 @@ import info_ausgabe
 # Konfigurieren Sie das Logging
 logging.basicConfig(filename='dns_settings.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s: %(message)s')
 
+# Konfigurieren Sie die gewünschten DNS-Server
+primary_dns_ipv4 = "94.140.14.49"
+secondary_dns_ipv4 = "94.140.14.59"
+
 
 def change_dns_settings(primary_dns_ipv4, secondary_dns_ipv4):
     try:
@@ -30,11 +34,7 @@ def change_dns_settings(primary_dns_ipv4, secondary_dns_ipv4):
         logging.error("Fehler beim Ändern der DNS-Einstellungen: %s", str(e))
 
 
-# Konfigurieren Sie die gewünschten DNS-Server
-primary_dns_ipv4 = "94.140.14.49"
-secondary_dns_ipv4 = "94.140.14.59"
-
-print(10 * "_", "Daten vorher:", 10 * "_")
+print(15 * "_", "Daten vorher:", 15 * "_")
 info_ausgabe.print_network_settings()
 print(50 * "-")
 
@@ -42,6 +42,6 @@ print(50 * "-")
 logging.info("Rufe die Funktion zum Ändern der DNS-Einstellungen auf")
 change_dns_settings(primary_dns_ipv4, secondary_dns_ipv4)
 
-print(10 * "_", "Daten vorher:", 10 * "_")
+print(15 * "_", "Daten vorher:", 15 * "_")
 info_ausgabe.print_network_settings()
 print(50 * "-")
