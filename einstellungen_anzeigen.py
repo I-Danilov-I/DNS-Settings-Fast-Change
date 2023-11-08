@@ -18,9 +18,3 @@ def print_network_settings():
         # Abrufen der DNS-Server-Informationen für IPv6
         dns_ipv6 = [dns for dns in config.DNSServerSearchOrder if ':' in dns]
         print("DNS-Server IPv6: {}".format(", ".join(dns_ipv6)))
-
-        print()
-
-
-if __name__ == "__main__":
-    print_network_settings()
