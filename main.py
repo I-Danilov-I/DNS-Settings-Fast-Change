@@ -5,6 +5,11 @@ import logging
 import info_ausgabe
 
 
+# Log einträge leeren
+with open("dns_settings.log", "r+") as f:
+    f.truncate(0)
+
+
 # Konfigurieren Sie das Logging
 logging.basicConfig(filename='dns_settings.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s: %(message)s')
 
@@ -43,10 +48,12 @@ print(50 * "-")
 # Rufen Sie die Funktion zum Ändern der DNS-Einstellungen auf
 logging.info("Rufe die Funktion zum Ändern der DNS-Einstellungen auf")
 
-print("Einstellungen werden vorgenommen...")
+print("\n Einstellungen werden vorgenommen bitte warten...\n")
 change_dns_settings(primary_dns_ipv4, secondary_dns_ipv4)
 time.sleep(10)
 
 print(15 * "_", "Daten vorher:", 15 * "_")
 info_ausgabe.print_network_settings()
 print(50 * "-")
+
+print(dir(logging))
