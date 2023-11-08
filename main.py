@@ -1,3 +1,5 @@
+import time
+
 import wmi
 import logging
 import info_ausgabe
@@ -40,7 +42,10 @@ print(50 * "-")
 
 # Rufen Sie die Funktion zum Ändern der DNS-Einstellungen auf
 logging.info("Rufe die Funktion zum Ändern der DNS-Einstellungen auf")
+
+print("Einstellungen werden vorgenommen...")
 change_dns_settings(primary_dns_ipv4, secondary_dns_ipv4)
+time.sleep(10)
 
 print(15 * "_", "Daten vorher:", 15 * "_")
 info_ausgabe.print_network_settings()
